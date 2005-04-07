@@ -9,8 +9,8 @@ Group:		X11/Applications/Games
 Source0:	http://membres.lycos.fr/cyxdown/reminiscence/%{_vname}-%{version}.tar.bz2
 # Source0-md5:	06fc5630e64ed309e6cc965cdb5a12f7
 URL:		http://membres.lycos.fr/cyxdown/reminiscence/
-BuildRequires:	libstdc++-devel
 BuildRequires:	SDL-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,7 +23,7 @@ Please be aware that, currently, this implementation is not yet complete.
 REminiscence to reimplementacja silnika u¿ytego w grze Flashback
 stworzonej przez Delphine Software i opublikowanej w 1992 roku.
 
-Warto pamiêtaæ, ¿e na chbwilê obecn± ta implementacja jest jeszcze
+Warto pamiêtaæ, ¿e na chwilê obecn± ta implementacja jest jeszcze
 niekompletna.
 
 %prep

@@ -14,10 +14,11 @@ BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-REminiscence is a re-implementation of the engine used in the game Flashback
-made by Delphine Software and released in 1992. 
+REminiscence is a re-implementation of the engine used in the game
+Flashback made by Delphine Software and released in 1992.
 
-Please be aware that, currently, this implementation is not yet complete.
+Please be aware that, currently, this implementation is not yet
+complete.
 
 %description -l pl
 REminiscence to reimplementacja silnika u¿ytego w grze Flashback

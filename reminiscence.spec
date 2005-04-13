@@ -33,7 +33,11 @@ niekompletna.
 %build
 %{__make} \
 	CXX="%{__cxx}" \
-	CXXFLAGS="%{rpmcflags} `sdl-config --cflags` -DSYS_LITTLE_ENDIAN"
+%ifarch ppc ppc64 sparc sparcv9 sparc64
+	CXXFLAGS="%{rpmcflags} `sdl-config --cflags` -DSYS_BIG_ENDIAN" \
+%else
+	CXXFLAGS="%{rpmcflags} `sdl-config --cflags` -DSYS_LITTLE_ENDIAN" \
+%endif
 	LDFLAGS="%{rpmldflags} `sdl-config --libs`"
 
 %install

@@ -1,6 +1,6 @@
 %define		_vname REminiscence
 Summary:	Free reimplementation of the Flashback engine
-Summary(pl):	Wolnodostêpna reimplementacja silnika gry Flashback
+Summary(pl.UTF-8):   WolnodostÄ™pna reimplementacja silnika gry Flashback
 Name:		reminiscence
 Version:	0.1.5
 Release:	0.1
@@ -20,11 +20,11 @@ Flashback made by Delphine Software and released in 1992.
 Please be aware that, currently, this implementation is not yet
 complete.
 
-%description -l pl
-REminiscence to reimplementacja silnika u¿ytego w grze Flashback
+%description -l pl.UTF-8
+REminiscence to reimplementacja silnika uÅ¼ytego w grze Flashback
 stworzonej przez Delphine Software i opublikowanej w 1992 roku.
 
-Warto pamiêtaæ, ¿e na chwilê obecn± ta implementacja jest jeszcze
+Warto pamiÄ™taÄ‡, Å¼e na chwilÄ™ obecnÄ… ta implementacja jest jeszcze
 niekompletna.
 
 %prep

@@ -1,6 +1,6 @@
 %define		_vname REminiscence
 Summary:	Free reimplementation of the Flashback engine
-Summary(pl.UTF-8):   Wolnodostępna reimplementacja silnika gry Flashback
+Summary(pl.UTF-8):	Wolnodostępna reimplementacja silnika gry Flashback
 Name:		reminiscence
 Version:	0.1.5
 Release:	0.1
